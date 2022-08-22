@@ -20,11 +20,6 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 50px;
-    /*display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
-    -webkit-align-items: flex-start;
-    -webkit-align-content: center;
-    -webkit-justify-content: center; */
 }
 
 .text-separator {
