@@ -1,36 +1,36 @@
 #aboutme {
     width: 500px; 
-    height: 180px;
+    height: fit-content;
     grid-column: 3 / 23;
-    grid-row: 1 / 18;
+    grid-row: 1 / auto;
 }
 
 #interests {
     width: 200px; 
-    height: 520px;
+    height: fit-content;
     grid-column: 25 / 33;
-    grid-row: 3 / 54;
+    grid-row: 3 / auto;
 }
 
 #socials {
     width: 200px; 
-    height: 240px;
+    height: fit-content;
     grid-column: 1 / 8;
     grid-row: 22 / auto;
 }
 
 #music {
     width: 250px; 
-    height: 350px;
+    height: fit-content;
     grid-column: 11 / 21;
-    grid-row: 24 / 59;
+    grid-row: 24 / auto;
 }
 
 #aboutmeyo {
     width: 150px; 
-    height: 60px;
+    height: fit-content;
     grid-column: 18 / 22;
-    grid-row: 55 / 61;
+    grid-row: 55 / auto;
 }
 
 #siteinfo {
