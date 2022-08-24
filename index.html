@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://unpkg.com/98.css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/positions.css" type="text/css">
-        <script src="js/background.js"></script>
+        <script src="js/info.js"></script>
     </head>
     <body>
         <div id="main">
@@ -138,6 +138,29 @@
                     </div>
                     <div class="window-body">
                         <p>yo</p>
+                    </div>
+                </div>
+                <div id="siteinfo" class="window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Site Information</div>
+                            <div class="title-bar-controls">
+                            <button aria-label="Minimize"></button>
+                            <button aria-label="Maximize"></button>
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <p>This site was made possible with 98.css, which you can find more info about <a href="https://jdan.github.io/98.css/">here</a></p>
+                        <div class="status-bar">
+                            <div>
+                                <p>Current Commit:</p>
+                                <p id="commit"class="status-bar-field"></p>
+                            </div>
+                            <div>
+                                <p>Last Updated:</p>
+                                <p id="date" class="status-bar-field"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
