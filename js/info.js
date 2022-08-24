@@ -8,13 +8,13 @@ async function getJSON() {
     // get the commit message for the latest commit
     commitMsg = githubJSON[0].commit.message;
 
-    // get user's timezone in IANA and 3 digit formats 
-    timezone = String(Intl.DateTimeFormat().resolvedOptions().timeZone);
-    visualTimeZone = new Date(unixTimestamp).toLocaleString('en', {timeZoneName: 'short'}).split(' ').pop();
-
     // get the timestamp for the latest commit and convert it into a unix timestamp
     jsonTimestamp = JSON.stringify(githubJSON[0].commit.author.date).substring(1,21);
     unixTimestamp = Date.parse(jsonTimestamp); 
+
+    // get user's timezone in IANA and 3 digit formats 
+    timezone = String(Intl.DateTimeFormat().resolvedOptions().timeZone);
+    visualTimeZone = new Date(unixTimestamp).toLocaleString('en', {timeZoneName: 'short'}).split(' ').pop();
 
     // convert the unix timestamp into a date and time
     date = new Date(unixTimestamp);
