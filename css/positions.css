@@ -34,7 +34,7 @@
 }
 
 #siteinfo {
-    width: 350px;
+    width: 250px;
     height: fit-content;
     grid-column: 2 / 17;
     grid-row: 63 / auto;
