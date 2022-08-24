@@ -1,3 +1,13 @@
+visitCount = localStorage.getItem("page_view");
+
+if (visitCount) {
+    visitCount = Number(visitCount) + 1;
+    localStorage.setItem("page_view", visitCount);
+} else {
+    visitCount = 1;
+    localStorage.setItem("page_view", 1);
+}
+
 // function to get information from github api and display it 
 async function getJSON() {
     const response = await fetch('https://api.github.com/repos/nowayitsaj/nowayitsaj.github.io/commits?per_page=1');
@@ -24,10 +34,10 @@ async function getJSON() {
     seconds = "0" + date.getSeconds();
 
     // display all of the info on the website
+    document.getElementById('visits').innerHTML = visitCount;
     document.getElementById('commit').innerHTML = commitVer + ' "' + commitMsg + '"';
     document.getElementById('date').innerHTML = date.toLocaleString("en-CA", { timeZone: timezone } ) + " (" + visualTimeZone + ")";
 };
 
 // run the function
 getJSON();
-console.log(Intl.DateTimeFormat().resolvedOptions().timeZone);

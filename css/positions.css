@@ -16,7 +16,7 @@
     width: 200px; 
     height: fit-content;
     grid-column: 16 / 24;
-    grid-row: 42 / auto;
+    grid-row: 48 / auto;
 }
 
 #music {
