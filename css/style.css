@@ -16,7 +16,7 @@ body {
 #wrapper {
     display: grid;
     grid-auto-columns: 25px;
-    grid-template-rows: repeat(72, 10px);
+    grid-template-rows: repeat(65, 10px);
     justify-content: center;
     margin: 0 auto;
 }

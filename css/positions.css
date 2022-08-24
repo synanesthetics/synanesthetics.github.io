@@ -15,27 +15,27 @@
 #socials {
     width: 200px; 
     height: fit-content;
-    grid-column: 1 / 8;
-    grid-row: 22 / auto;
+    grid-column: 16 / 24;
+    grid-row: 42 / auto;
 }
 
 #music {
     width: 250px; 
     height: fit-content;
-    grid-column: 11 / 21;
-    grid-row: 24 / auto;
+    grid-column: 1 / 11;
+    grid-row: 22 / auto;
 }
 
 #aboutmeyo {
     width: 150px; 
     height: fit-content;
-    grid-column: 18 / 22;
-    grid-row: 55 / auto;
+    grid-column: 9 / 13;
+    grid-row: 56 / auto;
 }
 
 #siteinfo {
     width: 250px;
     height: fit-content;
-    grid-column: 2 / 17;
-    grid-row: 63 / auto;
+    grid-column: 12 / 27;
+    grid-row: 24 / auto;
 }
