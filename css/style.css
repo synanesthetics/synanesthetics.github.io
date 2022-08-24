@@ -5,7 +5,8 @@ body {
 }
 
 #main {
-    background-image: linear-gradient(147deg, rgba(73, 53, 72, 1) 17%, rgba(75, 78, 109, 1) 100%);
+    /*background-image: linear-gradient(147deg, rgba(0, 128, 128, 1) 17%, rgba(192, 89, 125, 1) 85%);*/
+    background-color: #008080;
     display: flex;
     justify-content: center;
     align-items: center;
