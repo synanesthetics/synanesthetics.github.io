@@ -16,10 +16,9 @@ body {
 #wrapper {
     display: grid;
     grid-auto-columns: 25px;
-    grid-auto-rows: 10px;
+    grid-template-rows: repeat(72, 10px);
     justify-content: center;
     margin: 0 auto;
-    padding: 50px;
 }
 
 .text-separator {
