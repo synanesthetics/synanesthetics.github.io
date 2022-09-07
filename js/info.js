@@ -24,7 +24,6 @@ async function getJSON() {
     seconds = "0" + date.getSeconds();
 
     // display all of the info on the website
-    document.getElementById('visits').innerHTML = visitCount;
     document.getElementById('commit').innerHTML = commitVer + ' "' + commitMsg + '"';
     document.getElementById('date').innerHTML = date.toLocaleString("en-CA", { timeZone: timezone } ) + " (" + visualTimeZone + ")";
 };
