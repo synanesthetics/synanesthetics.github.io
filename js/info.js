@@ -1,13 +1,3 @@
-visitCount = localStorage.getItem("page_view");
-
-if (visitCount) {
-    visitCount = Number(visitCount) + 1;
-    localStorage.setItem("page_view", visitCount);
-} else {
-    visitCount = 1;
-    localStorage.setItem("page_view", 1);
-}
-
 // function to get information from github api and display it 
 async function getJSON() {
     const response = await fetch('https://api.github.com/repos/nowayitsaj/nowayitsaj.github.io/commits?per_page=1');
