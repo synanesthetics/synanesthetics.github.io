@@ -1,3 +1,3 @@
-### Just my silly little personal website 
+javascript makes me weep
 
-Nothing much to describe, you can see it at https://nowayitsaj.github.io though!
+see the website here: https://synanesthetics.github.io
